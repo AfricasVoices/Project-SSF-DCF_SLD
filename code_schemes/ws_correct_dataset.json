@@ -1,0 +1,124 @@
+{
+    "SchemeID": "Scheme-fffee09d89",
+    "Name": "WS - Correct Dataset",
+    "Version": "0.0.0.2",
+    "Codes": [
+        {
+            "CodeID": "code-70ac05ab",
+            "CodeType": "Normal",
+            "DisplayText": "age",
+            "StringValue": "age",
+            "NumericValue": 1,
+            "VisibleInCoda": true,
+            "MatchValues": [
+                "age"
+            ]
+        },
+        {
+            "CodeID": "code-6774cedd",
+            "CodeType": "Normal",
+            "DisplayText": "gender",
+            "StringValue": "gender",
+            "NumericValue": 2,
+            "VisibleInCoda": true,
+            "MatchValues": [
+                "gender"
+            ]
+        },
+        {
+            "CodeID": "code-dda6e4b4",
+            "CodeType": "Normal",
+            "DisplayText": "district",
+            "StringValue": "district",
+            "NumericValue": 3,
+            "VisibleInCoda": true,
+            "MatchValues": [
+                "location"
+            ]
+        },
+        {
+            "CodeID": "code-c2ef3b7f",
+            "CodeType": "Normal",
+            "DisplayText": "recently displaced",
+            "StringValue": "recently displaced",
+            "NumericValue": 4,
+            "VisibleInCoda": true,
+            "MatchValues": [
+                "recently displaced"
+            ]
+        },
+        {
+            "CodeID": "code-87ec1cb8",
+            "CodeType": "Normal",
+            "DisplayText": "hh language",
+            "StringValue": "hh language",
+            "NumericValue": 6,
+            "VisibleInCoda": true,
+            "MatchValues": [
+                "hh language"
+            ]
+        },
+        {
+            "CodeID": "code-30d0e028",
+            "CodeType": "Normal",
+            "DisplayText": "ssf rec s01e01",
+            "StringValue": "ssf_rec_s01e01",
+            "NumericValue": 99,
+            "VisibleInCoda": true,
+            "MatchValues": [
+                "ssf rec s01e01"
+            ]
+        },
+        {
+            "CodeID": "code-70ad6746",
+            "CodeType": "Normal",
+            "DisplayText": "ssf rec s01e02",
+            "StringValue": "ssf_rec_s01e02",
+            "NumericValue": 100,
+            "VisibleInCoda": true,
+            "MatchValues": [
+                "ssf rec s01e02"
+            ]
+        },
+        {
+            "CodeID": "code-08370f4e",
+            "CodeType": "Normal",
+            "DisplayText": "ssf rec s01e03",
+            "StringValue": "ssf_rec_s01e03",
+            "NumericValue": 101,
+            "VisibleInCoda": true,
+            "MatchValues": [
+                "ssf rec s01e03"
+            ]
+        },
+        {
+            "CodeID": "code-3194113f",
+            "CodeType": "Normal",
+            "DisplayText": "ssf rec s01e04",
+            "StringValue": "ssf_rec_s01e04",
+            "NumericValue": 102,
+            "VisibleInCoda": true,
+            "MatchValues": [
+                "ssf rec s01e04"
+            ]
+        },
+        {
+            "CodeID": "code-NR-5e3eee23",
+            "CodeType": "Control",
+            "ControlCode": "NR",
+            "DisplayText": "NR (not reviewed)",
+            "NumericValue": -40,
+            "StringValue": "NR",
+            "VisibleInCoda": false
+        },
+        {
+            "CodeID": "code-CE-016c1e22",
+            "CodeType": "Control",
+            "ControlCode": "CE",
+            "DisplayText": "CE (coding error)",
+            "NumericValue": -110,
+            "StringValue": "CE",
+            "VisibleInCoda": false
+        }
+    ]
+}
