@@ -79,6 +79,8 @@ if __name__ == "__main__":
 
             location = row["state"]
             if location in TARGET_LOCATIONS:
+                if "uid" not in row:
+                    continue
                 if row["uid"] not in file_uuids:
                     file_location_counts[location] += 1
                     file_uuids.add(row["uid"])
