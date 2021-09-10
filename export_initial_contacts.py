@@ -13,7 +13,7 @@ from src.lib import PipelineConfiguration
 
 log = Logger(__name__)
 
-TARGET_LOCATIONS = {SomaliaCodes.MOGADISHU, SomaliaCodes.HIR_SHABELLE}
+TARGET_LOCATIONS = {SomaliaCodes.BANADIR, SomaliaCodes.HIR_SHABELLE}
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generates lists of phone numbers of previous IMAQAL respondents who  "
