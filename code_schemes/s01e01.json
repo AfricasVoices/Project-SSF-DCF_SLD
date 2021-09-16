@@ -3,7 +3,78 @@
   "Name": "RQA S01E01",
   "Version": "0.0.0.1",
   "Codes": [
-
+    {
+      "CodeID": "code-84606c91",
+      "CodeType": "Normal",
+      "DisplayText": "reconciliation pact",
+      "NumericValue": 1,
+      "StringValue": "reconciliation_pact",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-33536d14",
+      "CodeType": "Normal",
+      "DisplayText": "unity and cooperation",
+      "NumericValue": 2,
+      "StringValue": "unity_and_cooperation",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-226e3f91",
+      "CodeType": "Normal",
+      "DisplayText": "good governace",
+      "NumericValue": 3,
+      "StringValue": "good_governace",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-30b18417",
+      "CodeType": "Normal",
+      "DisplayText": "practise religion",
+      "NumericValue": 4,
+      "StringValue": "practise_religion",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-a962ad26",
+      "CodeType": "Normal",
+      "DisplayText": "fair justice",
+      "NumericValue": 5,
+      "StringValue": "fair_justice",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-18dbe84b",
+      "CodeType": "Normal",
+      "DisplayText": "stop clannism",
+      "NumericValue": 6,
+      "StringValue": "stop_clannism",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-afb7b50e",
+      "CodeType": "Normal",
+      "DisplayText": "social interaction",
+      "NumericValue": 7,
+      "StringValue": "social_interaction",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-59a3a852",
+      "CodeType": "Normal",
+      "DisplayText": "awareness creation",
+      "NumericValue": 8,
+      "StringValue": "awareness_creation",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-574296fc",
+      "CodeType": "Normal",
+      "DisplayText": "other theme",
+      "NumericValue": 9,
+      "StringValue": "other_theme",
+      "VisibleInCoda": true
+    },
     {
       "CodeID": "code-NA-f93d3eb7",
       "CodeType": "Control",
