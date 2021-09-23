@@ -3,7 +3,78 @@
   "Name": "RQA S01E02",
   "Version": "0.0.0.1",
   "Codes": [
-
+    {
+      "CodeID": "code-48641257",
+      "CodeType": "Normal",
+      "DisplayText": "solidarity",
+      "NumericValue": 1,
+      "StringValue": "solidarity",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-bf6550d0",
+      "CodeType": "Normal",
+      "DisplayText": "practise religion",
+      "NumericValue": 2,
+      "StringValue": "practise_religion",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-05d16d21",
+      "CodeType": "Normal",
+      "DisplayText": "stop clannism",
+      "NumericValue": 3,
+      "StringValue": "stop_clannism",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-2981e780",
+      "CodeType": "Normal",
+      "DisplayText": "reconciliation",
+      "NumericValue": 4,
+      "StringValue": "reconciliation",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-a067d80a",
+      "CodeType": "Normal",
+      "DisplayText": "social interaction",
+      "NumericValue": 5,
+      "StringValue": "social_interaction",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-3cb85af7",
+      "CodeType": "Normal",
+      "DisplayText": "awareness creation",
+      "NumericValue": 6,
+      "StringValue": "awareness_creation",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-d0e47a5e",
+      "CodeType": "Normal",
+      "DisplayText": "good governance",
+      "NumericValue": 7,
+      "StringValue": "good_governance",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-b7a32edc",
+      "CodeType": "Normal",
+      "DisplayText": "eradicate corruption",
+      "NumericValue": 8,
+      "StringValue": "eradicate_corruption",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-7092ef71",
+      "CodeType": "Normal",
+      "DisplayText": "other theme",
+      "NumericValue": 9,
+      "StringValue": "other_theme",
+      "VisibleInCoda": true
+    },
     {
       "CodeID": "code-NA-f93d3eb7",
       "CodeType": "Control",
