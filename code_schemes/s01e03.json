@@ -3,7 +3,62 @@
   "Name": "RQA S01E03",
   "Version": "0.0.0.1",
   "Codes": [
-
+    {
+      "CodeID": "code-6b67156f",
+      "CodeType": "Normal",
+      "DisplayText": "upholding the law",
+      "NumericValue": 1,
+      "StringValue": "upholding_the_law",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-b75d5a8f",
+      "CodeType": "Normal",
+      "DisplayText": "making concessions",
+      "NumericValue": 2,
+      "StringValue": "making_concessions",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-4b2f1e30",
+      "CodeType": "Normal",
+      "DisplayText": "fair and just system",
+      "NumericValue": 3,
+      "StringValue": "fair_and_just_system",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-7fba7889",
+      "CodeType": "Normal",
+      "DisplayText": "practising religion",
+      "NumericValue": 4,
+      "StringValue": "practising_religion",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-cc0a13ef",
+      "CodeType": "Normal",
+      "DisplayText": "community engagement and cooperation",
+      "NumericValue": 5,
+      "StringValue": "community_engagement_and_cooperation",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-6f5c845f",
+      "CodeType": "Normal",
+      "DisplayText": "awareness creation",
+      "NumericValue": 6,
+      "StringValue": "awareness_creation",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-42b04ee8",
+      "CodeType": "Normal",
+      "DisplayText": "other theme",
+      "NumericValue": 7,
+      "StringValue": "other_theme",
+      "VisibleInCoda": true
+    },
     {
       "CodeID": "code-NA-f93d3eb7",
       "CodeType": "Control",
