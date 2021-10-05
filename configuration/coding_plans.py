@@ -29,7 +29,7 @@ def clean_district_if_no_mogadishu_sub_district(text):
 
 def get_rqa_coding_plans(pipeline_name):
     return [
-        CodingPlan(dataset_name="rec_s01e01"
+        CodingPlan(dataset_name="rec_s01e01",
                    raw_field="rqa_rec_s01e01_raw",
                    time_field="sent_on",
                    run_id_field="rqa_rec_s01e01_run_id",
@@ -48,7 +48,7 @@ def get_rqa_coding_plans(pipeline_name):
                    raw_field_fold_strategy=FoldStrategies.concatenate),
 
         CodingPlan(
-                   dataset_name="rec_s01e02"
+                   dataset_name="rec_s01e02",
                    raw_field="rqa_rec_s01e02_raw",
                    time_field="sent_on",
                    run_id_field="rqa_rec_s01e02_run_id",
@@ -67,7 +67,7 @@ def get_rqa_coding_plans(pipeline_name):
                    raw_field_fold_strategy=FoldStrategies.concatenate),
 
         CodingPlan(
-            dataset_name="rec_s01e03"
+            dataset_name="rec_s01e03",
             raw_field="rqa_rec_s01e03_raw",
                    time_field="sent_on",
                    run_id_field="rqa_rec_s01e03_run_id",
@@ -86,7 +86,7 @@ def get_rqa_coding_plans(pipeline_name):
                    raw_field_fold_strategy=FoldStrategies.concatenate),
 
         CodingPlan(
-                   dataset_name="rec_s01e04"
+                   dataset_name="rec_s01e04",
                    raw_field="rqa_rec_s01e04_raw",
                    time_field="sent_on",
                    run_id_field="rqa_rec_s01e04_run_id",
