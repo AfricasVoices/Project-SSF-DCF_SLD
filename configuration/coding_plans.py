@@ -47,8 +47,7 @@ def get_rqa_coding_plans(pipeline_name):
                    ws_code=CodeSchemes.WS_CORRECT_DATASET_SCHEME.get_code_with_match_value("ssf rec s01e01"),
                    raw_field_fold_strategy=FoldStrategies.concatenate),
 
-        CodingPlan(
-                   dataset_name="rec_s01e02",
+        CodingPlan(dataset_name="rec_s01e02",
                    raw_field="rqa_rec_s01e02_raw",
                    time_field="sent_on",
                    run_id_field="rqa_rec_s01e02_run_id",
@@ -66,9 +65,8 @@ def get_rqa_coding_plans(pipeline_name):
                    ws_code=CodeSchemes.WS_CORRECT_DATASET_SCHEME.get_code_with_match_value("ssf rec s01e02"),
                    raw_field_fold_strategy=FoldStrategies.concatenate),
 
-        CodingPlan(
-            dataset_name="rec_s01e03",
-            raw_field="rqa_rec_s01e03_raw",
+        CodingPlan(dataset_name="rec_s01e03",
+                   raw_field="rqa_rec_s01e03_raw",
                    time_field="sent_on",
                    run_id_field="rqa_rec_s01e03_run_id",
                    coda_filename="SSF_REC_s01e03.json",
@@ -85,8 +83,7 @@ def get_rqa_coding_plans(pipeline_name):
                    ws_code=CodeSchemes.WS_CORRECT_DATASET_SCHEME.get_code_with_match_value("ssf rec s01e03"),
                    raw_field_fold_strategy=FoldStrategies.concatenate),
 
-        CodingPlan(
-                   dataset_name="rec_s01e04",
+        CodingPlan(dataset_name="rec_s01e04",
                    raw_field="rqa_rec_s01e04_raw",
                    time_field="sent_on",
                    run_id_field="rqa_rec_s01e04_run_id",
