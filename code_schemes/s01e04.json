@@ -3,7 +3,62 @@
   "Name": "RQA S01E04",
   "Version": "0.0.0.1",
   "Codes": [
-
+    {
+      "CodeID": "code-b867129a",
+      "CodeType": "Normal",
+      "DisplayText": "no strict laws",
+      "NumericValue": 1,
+      "StringValue": "no_strict_laws",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-d042be3a",
+      "CodeType": "Normal",
+      "DisplayText": "an old tradition",
+      "NumericValue": 2,
+      "StringValue": "an_old_tradition",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-4a2df43f",
+      "CodeType": "Normal",
+      "DisplayText": "conflict resolution mechanism",
+      "NumericValue": 3,
+      "StringValue": "conflict_resolution_mechanism",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-d0450f35",
+      "CodeType": "Normal",
+      "DisplayText": "not valid",
+      "NumericValue": 4,
+      "StringValue": "not_valid",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-50db0653",
+      "CodeType": "Normal",
+      "DisplayText": "use religion instead",
+      "NumericValue": 5,
+      "StringValue": "use_religion_instead",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-c4bb0de7",
+      "CodeType": "Normal",
+      "DisplayText": "a clanism system",
+      "NumericValue": 6,
+      "StringValue": "a_clanism_system",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-2d5800bd",
+      "CodeType": "Normal",
+      "DisplayText": "other theme",
+      "NumericValue": 7,
+      "StringValue": "other_theme",
+      "VisibleInCoda": true
+    },
     {
       "CodeID": "code-NA-f93d3eb7",
       "CodeType": "Control",
