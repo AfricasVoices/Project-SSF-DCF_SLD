@@ -45,7 +45,7 @@
     {
       "SourceType": "RecoveryCSV",
       "ActivationFlowURLs": [
-        "gs://avf-project-datasets/2021/SSF-REC/2021_SSF_REC_recovered_golis_s01e01_de_identified.csv"
+     
       ]
     }
   ],
