@@ -42,9 +42,7 @@
       },
       {
         "SourceType": "RecoveryCSV",
-        "ActivationFlowURLs": [
-          "gs://avf-project-datasets/2021/SSF-REC/2021_SSF_REC_recovered_golis_s01e01_de_identified.csv"
-        ]
+        "ActivationFlowURLs": []
       }
     ],
     "UuidTable": {
@@ -58,6 +56,14 @@
     "TimestampRemappings": [],
     "SourceKeyRemappings": [
       {"SourceKey": "avf_phone_id", "PipelineKey": "uid"},
+
+      {"SourceKey": "Rqa_Ppe_S01E01 (Text) - ssf_ppe_s01e01_activation", "PipelineKey": "rqa_ppe_s01e01_raw", "IsActivationMessage": true},
+      {"SourceKey": "Rqa_Ppe_S01E01 (Run ID) - ssf_ppe_s01e01_activation", "PipelineKey": "rqa_ppe_s01e01_run_id"},
+      {"SourceKey": "Rqa_Ppe_S01E01 (Time) - ssf_ppe_s01e01_activation", "PipelineKey": "sent_on"},
+
+      {"SourceKey": "Rqa_Ppe_S01E02 (Text) - ssf_ppe_s01e02_activation", "PipelineKey": "rqa_ppe_s01e02_raw", "IsActivationMessage": true},
+      {"SourceKey": "Rqa_Ppe_S01E02 (Run ID) - ssf_ppe_s01e02_activation", "PipelineKey": "rqa_ppe_s01e02_run_id"},
+      {"SourceKey": "Rqa_Ppe_S01E02 (Time) - ssf_ppe_s01e02_activation", "PipelineKey": "sent_on"},
   
       {"SourceKey": "Gender (Value) - imaqal_demog", "PipelineKey": "gender_raw"},
       {"SourceKey": "Gender (Time) - imaqal_demog", "PipelineKey": "gender_time"},
@@ -92,7 +98,7 @@
       {"SourceKey": "District (Value) - ssf_ppe_demog", "PipelineKey": "location_raw"},
       {"SourceKey": "District (Time) - ssf_ppe_demog", "PipelineKey": "location_time"}
     ],
-    "ProjectStartDate": "2021-09-10T08:00:00+03:00",
+    "ProjectStartDate": "2021-10-14T08:00:00+03:00",
     "ProjectEndDate": "2100-01-01T00:00:00+03:00",
     "FilterTestMessages": true,
     "MoveWSMessages": true,
