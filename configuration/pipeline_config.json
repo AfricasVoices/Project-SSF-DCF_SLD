@@ -61,19 +61,19 @@
   "TimestampRemappings": [
     {
       "TimeKey": "received_on",
-      "ShowPipelineKeyToRemapTo": "rqa_s01e01_raw",
+      "ShowPipelineKeyToRemapTo": "rqa_rec_s01e01_raw",
       "RangeStartInclusive": "2021-09-12T00:00:00+03:00",
       "RangeEndExclusive": "2021-09-18T24:00:00+03:00"
     },
     {
       "TimeKey": "received_on",
-      "ShowPipelineKeyToRemapTo": "rqa_s01e02_raw",
+      "ShowPipelineKeyToRemapTo": "rqa_rec_s01e02_raw",
       "RangeStartInclusive": "2021-09-19T00:00:00+03:00",
       "RangeEndExclusive": "2021-09-26T24:00:00+03:00"
     },
     {
       "TimeKey": "received_on",
-      "ShowPipelineKeyToRemapTo": "rqa_s01e03_raw",
+      "ShowPipelineKeyToRemapTo": "rqa_rec_s01e03_raw",
       "RangeStartInclusive": "2021-09-27T00:00:00+03:00",
       "RangeEndExclusive": "2021-09-30T24:00:00+03:00"
     }
