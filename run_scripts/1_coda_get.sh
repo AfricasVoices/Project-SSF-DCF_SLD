@@ -20,6 +20,9 @@ DATASETS=(
     "SSF_REC_s01e03"
     "SSF_REC_s01e04"
 
+    "SSF_PPE_s01e01"
+    "SSF_PPE_s01e02"
+
     "IMAQAL_gender"
     "IMAQAL_location"
     "IMAQAL_age"
