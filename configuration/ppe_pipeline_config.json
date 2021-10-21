@@ -27,6 +27,7 @@
           "ssf_ppe_s01e02_activation"
         ],
         "SurveyFlowNames": [
+          "ssf_rec_demog",
           "ssf_ppe_demog"
         ],
         "TestContactUUIDs": [
@@ -86,6 +87,17 @@
       {"SourceKey": "Household_Language (Time) - imaqal_covid19_demog", "PipelineKey": "household_language_time"},
       {"SourceKey": "District (Value) - imaqal_covid19_demog", "PipelineKey": "location_raw"},
       {"SourceKey": "District (Time) - imaqal_covid19_demog", "PipelineKey": "location_time"},
+
+      {"SourceKey": "Gender (Value) - ssf_rec_demog", "PipelineKey": "gender_raw"},
+      {"SourceKey": "Gender (Time) - ssf_rec_demog", "PipelineKey": "gender_time"},
+      {"SourceKey": "Age (Value) - ssf_rec_demog", "PipelineKey": "age_raw"},
+      {"SourceKey": "Age (Time) - ssf_rec_demog", "PipelineKey": "age_time"},
+      {"SourceKey": "Recently Displaced (Value) - ssf_rec_demog", "PipelineKey": "recently_displaced_raw"},
+      {"SourceKey": "Recently Displaced (Time) - ssf_rec_demog", "PipelineKey": "recently_displaced_time"},
+      {"SourceKey": "Household Language (Value) - ssf_rec_demog", "PipelineKey": "household_language_raw"},
+      {"SourceKey": "Household Language (Time) - ssf_rec_demog", "PipelineKey": "household_language_time"},
+      {"SourceKey": "District (Value) - ssf_rec_demog", "PipelineKey": "location_raw"},
+      {"SourceKey": "District (Time) - ssf_rec_demog", "PipelineKey": "location_time"},
   
       {"SourceKey": "Gender (Value) - ssf_ppe_demog", "PipelineKey": "gender_raw"},
       {"SourceKey": "Gender (Time) - ssf_ppe_demog", "PipelineKey": "gender_time"},
@@ -118,5 +130,4 @@
     "MemoryProfileUploadBucket":"gs://avf-pipeline-logs-performance-nearline",
     "DataArchiveUploadBucket": "gs://pipeline-execution-backup-archive",
     "BucketDirPath": "2021/SSF-PPE/"
-  }
-  
+}
