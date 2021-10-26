@@ -4,6 +4,54 @@
     "Version": "0.0.0.1",
     "Codes": [
       {
+        "CodeID": "code-ef8bbd1d",
+        "CodeType": "Normal",
+        "DisplayText": "participatory governance",
+        "NumericValue": 1,
+        "StringValue": "participatory_governance",
+        "VisibleInCoda": true
+      },
+      {
+        "CodeID": "code-01b5d2d6",
+        "CodeType": "Normal",
+        "DisplayText": "justice",
+        "NumericValue": 2,
+        "StringValue": "justice",
+        "VisibleInCoda": true
+      },
+      {
+        "CodeID": "code-9ec95f8c",
+        "CodeType": "Normal",
+        "DisplayText": "reduce corruption",
+        "NumericValue": 3,
+        "StringValue": "reduce_corruption",
+        "VisibleInCoda": true
+      },
+      {
+        "CodeID": "code-74481339",
+        "CodeType": "Normal",
+        "DisplayText": "eradication of clannism",
+        "NumericValue": 4,
+        "StringValue": "eradication_of_clannism",
+        "VisibleInCoda": true
+      },
+      {
+        "CodeID": "code-dc7b2864",
+        "CodeType": "Normal",
+        "DisplayText": "no impact",
+        "NumericValue": 5,
+        "StringValue": "no_impact",
+        "VisibleInCoda": true
+      },
+      {
+        "CodeID": "code-a52ff355",
+        "CodeType": "Normal",
+        "DisplayText": "other theme",
+        "NumericValue": 6,
+        "StringValue": "other_theme",
+        "VisibleInCoda": true
+      },
+      {
         "CodeID": "code-NA-f93d3eb7",
         "CodeType": "Control",
         "ControlCode": "NA",
