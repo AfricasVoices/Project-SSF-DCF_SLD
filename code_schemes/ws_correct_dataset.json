@@ -81,6 +81,61 @@
             ]
         },
         {
+            "CodeID": "code-50c1ed8d",
+            "CodeType": "Normal",
+            "DisplayText": "ssf sld s01e01",
+            "StringValue": "ssf_sld_s01e01",
+            "NumericValue": 116,
+            "VisibleInCoda": true,
+            "MatchValues": [
+                "ssf sld s01e01"
+            ]
+        },
+        {
+            "CodeID": "code-0a62e205",
+            "CodeType": "Normal",
+            "DisplayText": "ssf sld s01e02",
+            "StringValue": "ssf_sld_s01e02",
+            "NumericValue": 117,
+            "VisibleInCoda": true,
+            "MatchValues": [
+                "ssf sld s01e02"
+            ]
+        },
+        {
+            "CodeID": "code-ae623712",
+            "CodeType": "Normal",
+            "DisplayText": "ssf sld s01e03",
+            "StringValue": "ssf_sld_s01e03",
+            "NumericValue": 118,
+            "VisibleInCoda": true,
+            "MatchValues": [
+                "ssf sld s01e03"
+            ]
+        },
+        {
+            "CodeID": "code-69dda336",
+            "CodeType": "Normal",
+            "DisplayText": "ssf sld s01e04",
+            "StringValue": "ssf_sld_s01e04",
+            "NumericValue": 119,
+            "VisibleInCoda": true,
+            "MatchValues": [
+                "ssf sld s01e04"
+            ]
+        },
+        {
+            "CodeID": "code-c49631db",
+            "CodeType": "Normal",
+            "DisplayText": "ssf sld s01e05",
+            "StringValue": "ssf_sld_s01e05",
+            "NumericValue": 120,
+            "VisibleInCoda": true,
+            "MatchValues": [
+                "ssf sld s01e05"
+            ]
+        },
+        {
             "CodeID": "code-360eb1ce",
             "CodeType": "Normal",
             "DisplayText": "ssf rec s01e01",
