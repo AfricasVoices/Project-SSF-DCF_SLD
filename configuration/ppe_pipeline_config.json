@@ -43,7 +43,9 @@
       },
       {
         "SourceType": "RecoveryCSV",
-        "ActivationFlowURLs": []
+        "ActivationFlowURLs": [
+          "gs://avf-project-datasets/2021/SSF-PPE/2021_SSF-PPE_recovered_hormuud_october_de_identified.csv"
+        ]
       }
     ],
     "UuidTable": {
