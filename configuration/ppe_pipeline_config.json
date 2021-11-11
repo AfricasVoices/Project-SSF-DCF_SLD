@@ -43,7 +43,9 @@
       },
       {
         "SourceType": "RecoveryCSV",
-        "ActivationFlowURLs": []
+        "ActivationFlowURLs": [
+          "gs://avf-project-datasets/2021/SSF-PPE/2021_SSF-PPE_recovered_hormuud_october_de_identified.csv"
+        ]
       }
     ],
     "UuidTable": {
@@ -54,7 +56,20 @@
     "OperationsDashboard": {
       "FirebaseCredentialsFileURL": "gs://avf-credentials/avf-dashboards-firebase-adminsdk-gvecb-ef772e79b6.json"
     },
-    "TimestampRemappings": [],
+    "TimestampRemappings": [
+      {
+        "TimeKey": "received_on",
+        "ShowPipelineKeyToRemapTo": "rqa_ppe_s01e01_raw",
+        "RangeStartInclusive": "2021-10-17T08:00+03:00",
+        "RangeEndExclusive": "2021-10-24T08:00+03:00"
+      },
+      {
+        "TimeKey": "received_on",
+        "ShowPipelineKeyToRemapTo": "rqa_ppe_s01e02_raw",
+        "RangeStartInclusive": "2021-10-24T08:00+03:00",
+        "RangeEndExclusive": "2021-10-31T24:00+03:00"
+      }
+    ],
     "SourceKeyRemappings": [
       {"SourceKey": "avf_phone_id", "PipelineKey": "uid"},
 
