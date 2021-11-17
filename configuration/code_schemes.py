@@ -17,6 +17,7 @@ class CodeSchemes(object):
 
     PPE_S01E01 = _open_scheme("ppe_s01e01.json")
     PPE_S01E02 = _open_scheme("ppe_s01e02.json")
+    PPE_S01_CLOSEOUT = _open_scheme("ppe_s01_closeout.json")
 
     AGE = _open_scheme("age.json")
     AGE_CATEGORY = _open_scheme("age_category.json")
