@@ -22,6 +22,7 @@ DATASETS=(
 
     "SSF_PPE_s01e01"
     "SSF_PPE_s01e02"
+    "SSF_PPE_s01_closeout"
 
     "IMAQAL_gender"
     "IMAQAL_location"
