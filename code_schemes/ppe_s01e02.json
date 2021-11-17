@@ -4,6 +4,62 @@
     "Version": "0.0.0.1",
     "Codes": [
       {
+        "CodeID": "code-104feaa7",
+        "CodeType": "Normal",
+        "DisplayText": "consultations",
+        "NumericValue": 1,
+        "StringValue": "consultations",
+        "VisibleInCoda": true
+      },
+      {
+        "CodeID": "code-0e5f5b7d",
+        "CodeType": "Normal",
+        "DisplayText": "making concessions",
+        "NumericValue": 2,
+        "StringValue": "making_concessions",
+        "VisibleInCoda": true
+      },
+      {
+        "CodeID": "code-b230de0c",
+        "CodeType": "Normal",
+        "DisplayText": "justice and fairness",
+        "NumericValue": 3,
+        "StringValue": "justice_and_fairness",
+        "VisibleInCoda": true
+      },
+      {
+        "CodeID": "code-9a416fcd",
+        "CodeType": "Normal",
+        "DisplayText": "reconciliation",
+        "NumericValue": 4,
+        "StringValue": "reconciliation",
+        "VisibleInCoda": true
+      },
+      {
+        "CodeID": "code-b203e439",
+        "CodeType": "Normal",
+        "DisplayText": "peace",
+        "NumericValue": 5,
+        "StringValue": "peace",
+        "VisibleInCoda": true
+      },
+      {
+        "CodeID": "code-b05241fd",
+        "CodeType": "Normal",
+        "DisplayText": "awareness creation",
+        "NumericValue": 6,
+        "StringValue": "awareness_creation",
+        "VisibleInCoda": true
+      },
+      {
+        "CodeID": "code-8d4ca0e5",
+        "CodeType": "Normal",
+        "DisplayText": "other theme",
+        "NumericValue": 7,
+        "StringValue": "other_theme",
+        "VisibleInCoda": true
+      },
+      {
         "CodeID": "code-NA-f93d3eb7",
         "CodeType": "Control",
         "ControlCode": "NA",

@@ -43,7 +43,9 @@
       },
       {
         "SourceType": "RecoveryCSV",
-        "ActivationFlowURLs": []
+        "ActivationFlowURLs": [
+          "gs://avf-project-datasets/2021/SSF-PPE/2021_SSF-PPE_recovered_hormuud_october_de_identified.csv"
+        ]
       }
     ],
     "UuidTable": {
@@ -54,7 +56,20 @@
     "OperationsDashboard": {
       "FirebaseCredentialsFileURL": "gs://avf-credentials/avf-dashboards-firebase-adminsdk-gvecb-ef772e79b6.json"
     },
-    "TimestampRemappings": [],
+    "TimestampRemappings": [
+      {
+        "TimeKey": "received_on",
+        "ShowPipelineKeyToRemapTo": "rqa_ppe_s01e01_raw",
+        "RangeStartInclusive": "2021-10-17T08:00+03:00",
+        "RangeEndExclusive": "2021-10-24T08:00+03:00"
+      },
+      {
+        "TimeKey": "received_on",
+        "ShowPipelineKeyToRemapTo": "rqa_ppe_s01e02_raw",
+        "RangeStartInclusive": "2021-10-24T08:00+03:00",
+        "RangeEndExclusive": "2021-10-31T24:00+03:00"
+      }
+    ],
     "SourceKeyRemappings": [
       {"SourceKey": "avf_phone_id", "PipelineKey": "uid"},
 
@@ -65,6 +80,10 @@
       {"SourceKey": "Rqa_Ppe_S01E02 (Text) - ssf_ppe_s01e02_activation", "PipelineKey": "rqa_ppe_s01e02_raw", "IsActivationMessage": true},
       {"SourceKey": "Rqa_Ppe_S01E02 (Run ID) - ssf_ppe_s01e02_activation", "PipelineKey": "rqa_ppe_s01e02_run_id"},
       {"SourceKey": "Rqa_Ppe_S01E02 (Time) - ssf_ppe_s01e02_activation", "PipelineKey": "sent_on"},
+
+      {"SourceKey": "message", "PipelineKey": "recovered_raw", "IsActivationMessage": true},
+      {"SourceKey": "received_on", "PipelineKey": "sent_on"},
+      {"SourceKey": "run_id", "PipelineKey": "recovered_run_id"},
   
       {"SourceKey": "Gender (Value) - imaqal_demog", "PipelineKey": "gender_raw"},
       {"SourceKey": "Gender (Time) - imaqal_demog", "PipelineKey": "gender_time"},
@@ -118,7 +137,15 @@
       "GenerateRegionThemeDistributionMaps": true,
       "GenerateDistrictThemeDistributionMaps": true,
       "GenerateMogadishuThemeDistributionMaps": true,
-      "TrafficLabels": []
+      "TrafficLabels": [
+        {"StartDate": "2021-10-17T08:00+03:00", "EndDate": "2021-10-18T16:30+03:00", "Label": "E01 Promo"},
+        {"StartDate": "2021-10-18T16:30+03:00", "EndDate": "2021-10-20T08:00+03:00", "Label": "E01 Ad"},
+        {"StartDate": "2021-10-20T08:00+03:00", "EndDate": "2021-10-20T24:00+03:00", "Label": "E01 Radio"},
+
+        {"StartDate": "2021-10-24T08:00+03:00", "EndDate": "2021-10-25T16:30+03:00", "Label": "E02 Promo"},
+        {"StartDate": "2021-10-25T16:30+03:00", "EndDate": "2021-10-27T08:00+03:00", "Label": "E02 Ad"},
+        {"StartDate": "2021-10-27T08:00+03:00", "EndDate": "2021-10-27T24:00+03:00", "Label": "E02 Radio"}
+      ]
     },
     "DriveUpload": {
       "DriveCredentialsFileURL": "gs://avf-credentials/pipeline-runner-service-acct-avf-data-core-64cc71459fe7.json",
