@@ -65,7 +65,10 @@ def get_rqa_coding_plans(pipeline_name):
                                      ws_match_value="ssf ppe s01e01", coda_filename="SSF_PPE_s01e01"),
 
                 make_rqa_coding_plan(episode_name="rqa_ppe_s01e02", code_scheme=CodeSchemes.PPE_S01E02,
-                                     ws_match_value="ssf ppe s01e02", coda_filename="SSF_PPE_s01e02")]
+                                     ws_match_value="ssf ppe s01e02", coda_filename="SSF_PPE_s01e02"),
+                
+                make_rqa_coding_plan(episode_name="rqa_ppe_s01_closeout", code_scheme=CodeSchemes.PPE_S01_CLOSEOUT,
+                                     ws_match_value="ssf ppe s01 closeout", coda_filename="SSF_PPE_s01_closeout")]
 
 
 def get_demog_coding_plans(pipeline_name):
