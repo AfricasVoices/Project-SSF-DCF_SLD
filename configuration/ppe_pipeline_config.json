@@ -24,7 +24,8 @@
         "ContactsFileName": "ssf_ppe_contacts",
         "ActivationFlowNames": [
           "ssf_ppe_s01e01_activation",
-          "ssf_ppe_s01e02_activation"
+          "ssf_ppe_s01e02_activation",
+          "ssf_ppe_s01_closeout_activation"
         ],
         "SurveyFlowNames": [
           "ssf_rec_demog",
@@ -80,6 +81,10 @@
       {"SourceKey": "Rqa_Ppe_S01E02 (Text) - ssf_ppe_s01e02_activation", "PipelineKey": "rqa_ppe_s01e02_raw", "IsActivationMessage": true},
       {"SourceKey": "Rqa_Ppe_S01E02 (Run ID) - ssf_ppe_s01e02_activation", "PipelineKey": "rqa_ppe_s01e02_run_id"},
       {"SourceKey": "Rqa_Ppe_S01E02 (Time) - ssf_ppe_s01e02_activation", "PipelineKey": "sent_on"},
+
+      {"SourceKey": "Rqa_Ppe_S01_Closeout (Text) - ssf_ppe_s01_closeout_activation", "PipelineKey": "rqa_ppe_s01_closeout_raw", "IsActivationMessage": true},
+      {"SourceKey": "Rqa_Ppe_S01_Closeout (Run ID) - ssf_ppe_s01_closeout_activation", "PipelineKey": "rqa_ppe_s01_closeout_run_id"},
+      {"SourceKey": "Rqa_Ppe_S01_Closeout (Time) - ssf_ppe_s01_closeout_activation", "PipelineKey": "sent_on"},
 
       {"SourceKey": "message", "PipelineKey": "recovered_raw", "IsActivationMessage": true},
       {"SourceKey": "received_on", "PipelineKey": "sent_on"},
